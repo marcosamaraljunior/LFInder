@@ -15,11 +15,25 @@ By Default, if the user does not provide any information, the script will show t
 
 The argument must be composed by ```http://URL/examplePage.php/?``` + ```urlParameter=```
 
-#### Example
+#### Examples
 
 ```
 ./lfinder.sh http://url.com/index.php?parameter=
 ```
+
+```
+./lfinder.sh http://url.com/index.php?parameter= -c "security=medium; PHPSESSID=herdqq8ig9k717scddm6rj1t2j"
+```
+
+#### Options
+
+```
+-c) Send cookies from string 
+```
+
+# Tests
+
+The script was tested in the DVWA web application, the results were positive in at least one payload for each level: LOW, MEDIUM and HIGH;
 
 # Notes
 
