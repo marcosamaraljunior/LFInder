@@ -17,7 +17,7 @@ echo "    /_____//_/    /___//_/ /_/ \__,_/ \___//_/      "
 echo -e "${NC}"
 
 if [ "$#" -ne 1 ]; then
-	echo " Illegal number of parameters"
+	echo " Illegal number of arguments"
 	echo ""
 	echo " Use example: $0 http://url.com/index.php?parameter="
 	echo ""
